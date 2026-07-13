@@ -58,3 +58,53 @@ header{
     margin-top: 15px;
     margin-bottom: 40px;
 }
+
+main .people{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(244, 196, 48, 1);
+    padding: 30px 30px;
+    margin: 10px 10px;
+}
+
+.people p{
+    padding-bottom: 50px;
+    color: rgba(0, 1, 2, 1);
+}
+
+.people h2{
+    font-size: 40px;
+}
+
+.cities h2{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.first-city img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.first-city-parent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px 80px;
+    gap: 10px;
+    padding: 10px 5%;
+}
+
+.first-city-parent h3{
+    margin: 10px auto;
+    font-size: 25px;
+}
+
+.city-pera{
+    margin: 20px auto;
+    color: rgba(87, 87, 87, 1);
+}
+
+.list-item{
+    margin-left: 15px;
+    color: rgba(87, 87, 87, 1);
+}
