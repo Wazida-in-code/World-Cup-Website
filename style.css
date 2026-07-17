@@ -220,3 +220,56 @@ thead{
 .champion{
     border: 2px solid gold;
 }
+/* AI section end */
+
+footer{
+    
+    background-color: black;
+    color: white;
+}
+
+.top, .bottom{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+footer .top img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+footer .top .icon{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 10px;
+    font-size: 20px;
+}  
+
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.div-flex{
+    display: flex;
+    gap: 10px;
+    margin: 20px 10px;
+}
+
+.footer-hr{
+    border: 1px solid rgb(26, 25, 25);
+}
